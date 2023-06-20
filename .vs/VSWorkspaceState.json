@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Code C",
+    "\\Code C\\Code C",
+    "\\Code C\\Code C\\Library",
+    "\\Code C\\Code C\\Library\\ShippingExample",
+    "\\Code C\\Code C\\Library\\ShippingExample\\ShippingProviders",
+    "\\Code C\\Code C\\Library\\ShippingExample\\ShippingProviders\\Common",
+    "\\Code C\\Code C\\Library\\SortingExample",
+    "\\Code C\\Code C\\Library\\SortingExample\\Libs",
+    "\\Code C\\Code C\\Library\\SortingExample\\Libs\\Common"
+  ],
+  "SelectedNode": "\\Code C\\Code C\\Library\\SortingExample\\SortablePersons.cs",
+  "PreviewInSolutionExplorer": false
+}

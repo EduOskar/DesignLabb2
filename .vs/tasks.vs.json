@@ -1,0 +1,20 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-DesignLab2",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-Code A",
+      "appliesTo": "Code A/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-Executor",
+      "appliesTo": "Code B/Code B/Greeter/Executor.cs",
+      "type": "launch"
+    }
+  ]
+}

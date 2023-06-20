@@ -1,0 +1,37 @@
+
+
+Här ligger alla min kommentarer till denna uppgift!
+
+Code A Factory method samt abstract factory method: 
+
+Anledningen till att jag tror detta är då Programmet körs i form av strukturen: Man använder sig av en interface som användaren interagerar med istället för att användaren har direkt tillgång till koden 
+då IMeal är ett interface styr objektskapandet av  greensallad och hamburger medans man returnerar objekten och instastierar det i Resturant.
+Abstract Factory för att Resturant och Imeal är det som styr alla olika object som skapas och det instasierar i FastFoodResturant eller Vegetarian resturant
+
+Jag undrar om det är Composite deisgn pattern är en del av detta också med abstracatklassen som implemenmterar de olika objekten
+
+
+Code B Singleton: Det är flertal olika sätt man kan instastiera singleton så går jag från fil till fil. 
+Basegreeter är en abstrakt klass som kommer ärvas till alla olika singletonmetoder:
+
+1: Lazygreeter använder en lazy singleton instastiering som är använt för att den ska bara instatieras när metoden blir kallad istället för att den ska göra det när programmet startar
+
+2: DoubleCheckGreeter En vanlig instastiering som dubbelchekar att det inte är en tidigare instastiering av singleton metoden. Om det är en tidigare instatiering kommer inte en ny startas.
+
+3:Lockless lazy singleton som använmder sig av lazy initializiot och olika metoder för att föfrsäkra sig om att det bara blir en instans utan att använda ett lock för att checka om instastieringen har genomförts.
+
+4:  Samma sak som 3:an fast den är en inte är en lazy 
+
+5: Simple singleton som enbart instastieras 1 gång och kan nås av resten av programmet
+
+6: en simple singleton instastiering som med hjälp av " private static readonly object Padlock = new object();" ser till att den är threadsafe utan at t implementera complexa mekanismer in till koden
+
+Code C: 
+
+ShippingExample är gjord i FactoryMethod där vi använder ett interface för att skapa objected och senare låter sub klasser bestämda vad som instastieras
+
+SortingExample är också en factorymethod metod där man använder interface för att implementera en instastiering och subklasserna bestämma vad som ska göras med den.
+
+code D:
+Adapter mönstret användes i båda systemen och det tillåter ikompatibla gränssit att bli kompatibla igenom att översätta förfrågningarna mellan gränssnitten
+
